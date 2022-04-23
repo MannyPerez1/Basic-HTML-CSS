@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<style> 
+	.font_1 {
+	         background-color: pink;
+			 color: blue;
+             font-size: large;
+			 text-align: center;
+	} 
+.font_2 { 
+    background-color: darkblue;
+    color: orange;
+    font-size: small;
+}
+</style>
+</body>
+<p class="My_Style">people should consider ordering dominoes more.</p> 
+<h2 class="font_1">This is h2 element is styled per class attribute font_1</h2>	
+   
+</html>
