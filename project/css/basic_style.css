@@ -1,26 +1,26 @@
-body  )
+body  {
     background: #242589;
-)
+}
 
- h1 (
-     color: rgba (8,141,165,1);
+ h1 {
+     color: rgba(8,141,165,1);
      margin-left: 100px;
      text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
-     )
+ }
 
- .container  (
+ .container  {
      width: 450px;
      height: 450px;
-     background-color: #faebd7:
-     border: 2px solid black:
-     border-radius: 5%:
-     )
+     background-color: #faebd7;
+     border: 2px solid black;
+     border-radius: 5%;
+ }
 
  /*---------------------------------------------------
       SELECT ALL SQUARES IN THE ARRAY
 ------------------------------------------------------*/
-.container .sqaures:nth-child(-n+4)  (
-    background-image: url("../images/icons/smileyface2.png")
+.container .squares:nth-child(-n+4)  {
+    background-image: url("./icons/icons2.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -32,24 +32,24 @@ body  )
     transition: transform .5s ease-in-out;
 
 
-)
+}
 
 /*---------------------------------------------------
      SELECT ALL SQUARES IN THE ARRAY
 ------------------------------------------------------*/
-.sqaures:nth-child(-n+4) p(
+.squares:nth-child(-n+4) p{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-    font-size: 1.5cm; 
+    font-size: 1.5em; 
     font-weight: 900;
     text-align: center;
     margin: 0;
-    text-shadow: 2px 1px 4px rgba(0,0,0, 0.8) :
-)
+    text-shadow: 2px 1px 4px rgba(0,0,0, 0.8);
+}
 
 /*---------------------------------------------------
       SELECT ALL SQUARES IN THE ARRAY
 ------------------------------------------------------*/
-.sqaures:nth-child(1) {
+.squares:nth-child(1) {
     background: #4240ff;
 }
 
@@ -69,7 +69,7 @@ body  )
     HOVER EFFECTS
 ------------------------------------------------------*/
 .container:nth-child(-n+4):hover {
-    background-image: url("../images/icons/smileyface1.png");
+    background-image: url("./icons/icons2.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -99,7 +99,7 @@ body  )
 @keyframes race {
     0%, 100% {
         transformation: translateY(Opx);
-        background-image: url("../images/icons/smileyface1.png");
+        background-image: url("./icons/icons2.png");
     }
     50% {
         transform: translateY(330px);
