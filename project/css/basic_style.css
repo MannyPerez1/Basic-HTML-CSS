@@ -20,7 +20,7 @@ body  {
       SELECT ALL SQUARES IN THE ARRAY
 ------------------------------------------------------*/
 .container .squares:nth-child(-n+4)  {
-    background-image: url("./icons/icons2.png");
+    background-image: url("./icons/icons.png");
     color: #fff;
     float: left;
     width: 100px;
