@@ -68,7 +68,7 @@ body  {
 /*---------------------------------------------------
     HOVER EFFECTS
 ------------------------------------------------------*/
-.container:nth-child(-n+4):hover {
+.container .squares:nth-child(-n+4):hover {
     background-image: url("./icons/icons2.png");
     transform: scale(.5);
     animation-name: race;
@@ -98,7 +98,7 @@ body  {
 ------------------------------------------------------*/
 @keyframes race {
     0%, 100% {
-        transformation: translateY(Opx);
+        transform: translateY(Opx);
         background-image: url("./icons/icons2.png");
     }
     50% {
