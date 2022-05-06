@@ -1,0 +1,15 @@
+html {
+    font-family: sans-serif;
+    font-size: 68%;
+    -webkit-tap-highlight-color: rgba(57, 91, 204, 0.63);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body{
+    font-size: 20px;
+    margin: 0;
+    font-family: "helvetica Neue", sans-serif;
+    color: rgb(15, 17, 129);
+    background-color: rgb(26, 35, 153);
+}
